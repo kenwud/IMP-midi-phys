@@ -1,0 +1,259 @@
+{
+    "version": 2,
+    "global": {
+        "gravity_y": -1000.0,
+        "damping": 0.9600000381469727,
+        "substeps": 32
+    },
+    "defaults": {
+        "notes": "60,36,43,",
+        "channel": 0,
+        "elasticity": 1.0,
+        "friction": 0.1,
+        "trigger_midi": true
+    },
+    "camera": {
+        "pan": [
+            10676.318713685765,
+            3561.5785636511278
+        ],
+        "zoom": 0.05052772159080301
+    },
+    "objects": [
+        {
+            "type": "HollowBox",
+            "uid": "d61a486f-fec1-4f6d-bd0f-44f6f45670db",
+            "friction": 0.1,
+            "elasticity": 0.949999988079071,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "p1": [
+                -944.4835219563611,
+                1146.0998443522603
+            ],
+            "p2": [
+                7820.230642547793,
+                8167.170607429856
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "f2ef841a-1b16-4745-b2dc-b76ed358d7f8",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": true,
+            "p1": [
+                -1178.5234186875869,
+                6392.60522977939
+            ],
+            "p2": [
+                7840.312666382505,
+                6338.600223281965
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "38ec45d0-9fa1-4430-bbd3-24295f748c2a",
+            "friction": 0.1,
+            "elasticity": 1.299999713897705,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "p1": [
+                7458.424904499371,
+                1473.3917719206731
+            ],
+            "p2": [
+                7807.090067666726,
+                1906.4114100478723
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "85d58dd1-fd7a-4373-a646-becf763f4d29",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "p1": [
+                7829.978884449843,
+                1414.3475420040634
+            ],
+            "p2": [
+                -1220.7607894309867,
+                2952.9732865638052
+            ]
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "698bfa2c-2bb2-4ac8-a5f7-483fc3f15735",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": true,
+            "center": [
+                2134.0500164308414,
+                4753.150891438994
+            ],
+            "radius": 302.95765007008305
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "ccc3dbae-719d-4fff-988f-68b606af0a3f",
+            "friction": 0.1,
+            "elasticity": 0.49999988079071045,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "center": [
+                2141.690085220991,
+                5261.12584844515
+            ],
+            "radius": 226.03870313286484
+        },
+        {
+            "type": "Wall",
+            "uid": "70817d77-44b1-4b3b-8681-4301c58f3c6c",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": true,
+            "p1": [
+                7253.428199990716,
+                1523.7188431427776
+            ],
+            "p2": [
+                7814.649662098844,
+                2206.9449709265855
+            ]
+        },
+        {
+            "type": "Ball",
+            "uid": "f58c7908-d44c-47df-a6da-857002787700",
+            "friction": 0.1,
+            "elasticity": 0.9999999403953552,
+            "notes": [
+                48,
+                45,
+                41,
+                40,
+                40
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                6581.853908349162,
+                4062.120621157017
+            ],
+            "radius": 154.0,
+            "mass": 1.7000004053115845
+        },
+        {
+            "type": "Ball",
+            "uid": "13b5132c-1133-4f36-bf5e-f5e5b35ceb08",
+            "friction": 0.1,
+            "elasticity": 1.1999998092651367,
+            "notes": [
+                33
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                3551.8755468691807,
+                4770.039096304974
+            ],
+            "radius": 145.0,
+            "mass": 10.10000228881836
+        },
+        {
+            "type": "Ball",
+            "uid": "7b4dca93-c2b5-4fa1-9d98-3c2ae5c246ac",
+            "friction": 0.9500001668930054,
+            "elasticity": 1.0999999046325684,
+            "notes": [
+                64,
+                84,
+                60,
+                54
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                4246.5763000438665,
+                5438.820508134104
+            ],
+            "radius": 79.0,
+            "mass": 1.200000286102295
+        },
+        {
+            "type": "Ball",
+            "uid": "f540f4f1-9598-4b45-884c-c19035436d2b",
+            "friction": 0.1,
+            "elasticity": 1.1499998569488525,
+            "notes": [
+                45
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                4741.589939055314,
+                3794.5171098073324
+            ],
+            "radius": 132.0,
+            "mass": 6.299996376037598
+        },
+        {
+            "type": "Ball",
+            "uid": "4c15a659-c22f-453e-bb90-2275919674fe",
+            "friction": 0.1,
+            "elasticity": 1.1999998092651367,
+            "notes": [
+                50,
+                40,
+                50,
+                38,
+                64
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                4480.772438232523,
+                2390.303194862122
+            ],
+            "radius": 79.0,
+            "mass": 6.299996376037598
+        }
+    ]
+}

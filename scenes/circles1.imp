@@ -1,0 +1,236 @@
+{
+    "version": 1,
+    "global": {
+        "gravity_x": 0,
+        "gravity_y": -900,
+        "damping": 1.0,
+        "substeps": 20
+    },
+    "defaults": {
+        "note": 60,
+        "channel": 0,
+        "friction": 0.1,
+        "elasticity": 1.0,
+        "melody": "60",
+        "trigger_midi": true
+    },
+    "objects": [
+        {
+            "type": "HollowBox",
+            "uid": "7d243ea5-311b-4e87-9634-748f0b29f776",
+            "friction": 0.1,
+            "elasticity": 0.8,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                41.0,
+                109.0
+            ],
+            "p2": [
+                872.0,
+                749.0
+            ]
+        },
+        {
+            "type": "RotatingWall",
+            "uid": "510119c2-048b-414c-9033-36dcfdf15b06",
+            "friction": 0.1,
+            "elasticity": 1.2000000476837158,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "pivot": [
+                263.0,
+                279.0
+            ],
+            "arm_length": 433.07389669662615,
+            "speed": 90,
+            "start_angle": 38.90775093795122
+        },
+        {
+            "type": "Ball",
+            "uid": "93b6f37f-9fa9-4477-b6f0-03d41cad406e",
+            "friction": 0.1,
+            "elasticity": 0.8,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                -35.146080041839035,
+                -534965.2989536743
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "8d86f5b9-0dad-46de-b99a-d26604ae5c14",
+            "friction": 0.1,
+            "elasticity": 0.8,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                67.83448006941794,
+                -522961.25626659614
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "e4bf20a2-e068-4c48-8b20-1d3b343e37f6",
+            "friction": 0.1,
+            "elasticity": 0.8,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                65.95894479423482,
+                -493667.14285193634
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "283b038c-77bf-4107-8775-c667ce6bfbdd",
+            "friction": 0.0,
+            "elasticity": 0.8,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                438.0,
+                429.0
+            ],
+            "radius": 272.237029075767
+        },
+        {
+            "type": "Ball",
+            "uid": "b48976c9-8a71-4b0f-97b9-0495cc58b243",
+            "friction": 0.5,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                45,
+                58,
+                72,
+                62,
+                58,
+                57,
+                58,
+                55,
+                60,
+                62,
+                58,
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                336.6214054144327,
+                449.4375801800585
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "RotatingWall",
+            "uid": "36fbc2c3-42e7-4b50-b209-137255230daf",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "pivot": [
+                565.0,
+                415.0
+            ],
+            "arm_length": 131.03434664239754,
+            "speed": 180.0,
+            "start_angle": -1.3118877825041106
+        },
+        {
+            "type": "RotatingWall",
+            "uid": "cef75aa0-6da3-4869-9d2b-7914d276730c",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "pivot": [
+                351.0,
+                211.0
+            ],
+            "arm_length": 55.60575509783138,
+            "speed": 90,
+            "start_angle": -127.69424046668917
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "ff4851e9-4941-43d1-80b7-56f786844ca4",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                439.0,
+                426.0
+            ],
+            "radius": 34.0147027033899
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "cab3b113-2dcc-4597-a0b5-fa8fc7c2a0ef",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                319.0,
+                184.0
+            ],
+            "radius": 11.661903789690601
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "15b6c9fa-bddc-4bd9-8aef-6e8fff21c3c9",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                298.0,
+                419.0
+            ],
+            "radius": 10.04987562112089
+        }
+    ],
+    "midi": {
+        "dynamic_velocity": false,
+        "sensitivity": 0.5,
+        "fixed_velocity": 100
+    }
+}

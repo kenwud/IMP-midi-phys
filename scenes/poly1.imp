@@ -1,0 +1,386 @@
+{
+    "version": 2,
+    "global": {
+        "gravity_y": -900.0,
+        "damping": 1.0,
+        "substeps": 64
+    },
+    "defaults": {
+        "notes": "60",
+        "channel": 0,
+        "elasticity": 1.0,
+        "friction": 0.1,
+        "trigger_midi": true
+    },
+    "camera": {
+        "pan": [
+            -452.0046886121672,
+            -31.30649492389457
+        ],
+        "zoom": 6.55946959750858
+    },
+    "objects": [
+        {
+            "type": "HollowBox",
+            "uid": "c97e3e29-7a67-420d-8ab1-4789f20e3775",
+            "friction": 0.1,
+            "elasticity": 0.9999999403953552,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "p1": [
+                500.0,
+                37.0
+            ],
+            "p2": [
+                955.0,
+                646.0
+            ]
+        },
+        {
+            "type": "Ball",
+            "uid": "46ab9d8b-5d54-4ebf-8610-bfdd5202d5dc",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                42
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                529.1985824892449,
+                98.65264135131115
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "e775efed-fdf7-47e6-9422-9561eb2ddc0e",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                44
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                532.9683080004206,
+                99.14893513007635
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "42e6a304-30d9-45fc-94eb-2a9cfbe7111e",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                46
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                536.7380335115963,
+                99.64522890884156
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "33ce8ccd-d7bf-4d8a-8930-c6b05c6c60c4",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                49
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                540.5077590227721,
+                100.14152268760677
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "d39348a8-138a-4f38-bdd4-1188b9e44493",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                544.2774845339478,
+                100.63781646637197
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "1c53eaa3-a6a7-4d26-8f15-906b231c0e15",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                54
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                548.0472100451235,
+                101.13411024513718
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "633db3b5-d329-400c-948a-a5441469a442",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                56
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                551.8169355562992,
+                101.63040402390239
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "7e0c923d-e6c5-4940-835c-1c27adb88a2b",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                58
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                555.586661067475,
+                102.1266978026676
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "5dea25a5-d230-4830-8b89-e2816426d3e2",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                61
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                559.3563865786507,
+                102.6229915814328
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "fcab2f99-4130-4e54-9dcd-b6e73e1edf00",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                63
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                563.1261120898264,
+                103.119285360198
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "9baf03c2-526f-4f2d-94c7-45279e04150a",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                66
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                566.8958376010021,
+                103.6155791389632
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "1ed5e8f9-e967-408d-8093-859e9231662f",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                68
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                570.6655631121778,
+                104.1118729177284
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "2bd6b44b-284d-4dcf-ac92-b4ad426d3184",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                70
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                574.4352886233536,
+                104.60816669649361
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "56684495-4747-48ec-9554-ac243addb982",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                73
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                578.2050141345293,
+                105.10446047525882
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "b97e2b3e-cab5-4817-a784-ef835e5bd767",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                75
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                581.974739645705,
+                105.60075425402403
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "fb2f2ecc-fdf8-4515-8156-8ed37759327a",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                78
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                585.7444651568807,
+                106.09704803278923
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "9cac3ff3-4c58-4cef-a0c8-b78084731719",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                80
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                589.5141906680565,
+                106.59334181155444
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "84e30540-5b84-4ea6-900a-2c07665a895b",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                82
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                593.2839161792322,
+                107.08963559031965
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        },
+        {
+            "type": "Ball",
+            "uid": "11d79fc4-d660-4dc4-95af-1d82c62381aa",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                85
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "sensor": false,
+            "position": [
+                597.0536416904079,
+                107.58592936908485
+            ],
+            "radius": 1.0,
+            "mass": 1.0
+        }
+    ]
+}

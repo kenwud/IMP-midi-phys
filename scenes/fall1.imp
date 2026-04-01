@@ -1,0 +1,186 @@
+{
+    "version": 1,
+    "global": {
+        "gravity_x": 0,
+        "gravity_y": -900,
+        "damping": 1.0,
+        "substeps": 22
+    },
+    "defaults": {
+        "note": 39,
+        "channel": 0,
+        "friction": 0.1,
+        "elasticity": 1.0,
+        "melody": "60",
+        "trigger_midi": true
+    },
+    "objects": [
+        {
+            "type": "Wall",
+            "uid": "43e2ee63-3467-46a1-95a5-f64f95c8ad15",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                11.0,
+                912.0
+            ],
+            "p2": [
+                11.000000000000052,
+                62.829816821150985
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "df488298-f487-494a-b9d4-3ebc5d3b9f2c",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                14.0,
+                90.0
+            ],
+            "p2": [
+                684.0268651330333,
+                90.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "ddc213f4-fcac-438a-ae87-fd90c6cfd509",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                305.0,
+                873.0
+            ],
+            "p2": [
+                140.38529834793007,
+                708.3852983479301
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "6f1a981e-11c4-45fe-84ec-e2022ee0b1c3",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                347.0,
+                608.0
+            ],
+            "p2": [
+                170.98863673046563,
+                431.9886367304656
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "3674b31c-8b76-4a18-92b2-57320aa2bf46",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                360.0,
+                345.0
+            ],
+            "p2": [
+                196.64455931925622,
+                181.6445593192562
+            ]
+        },
+        {
+            "type": "Ball",
+            "uid": "f7406256-182d-411b-9731-9881946bc872",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                61
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                106.0,
+                487.4822210005021
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "c4fd11c0-27c5-43f1-ac2d-862635210728",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                63
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                5834.478335682993,
+                -19391.93984937578
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "d535fc4b-feb5-43c9-a09e-47917aa1822b",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                65
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                2911.510346705161,
+                -11580.094401046956
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "OscillatingWall",
+            "uid": "1979d996-db6c-4a3c-a57f-0388621bdc4e",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                60
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                655.0,
+                207.0
+            ],
+            "arm_length": 129.0348790056394,
+            "sweep": 180.0,
+            "speed": 0.5,
+            "rest_angle": 180.0
+        }
+    ],
+    "midi": {
+        "dynamic_velocity": true,
+        "sensitivity": 0.5,
+        "fixed_velocity": 100
+    }
+}

@@ -1,0 +1,1008 @@
+{
+    "version": 1,
+    "global": {
+        "gravity_x": 0,
+        "gravity_y": -900,
+        "damping": 1.0,
+        "substeps": 24
+    },
+    "defaults": {
+        "note": 32,
+        "channel": 0,
+        "friction": 0.1,
+        "elasticity": 1.0,
+        "melody": "34,32",
+        "trigger_midi": true
+    },
+    "objects": [
+        {
+            "type": "Wall",
+            "uid": "b44aff52-c886-4ae8-ab0b-676ad404c657",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                22.0,
+                854.0
+            ],
+            "p2": [
+                556.0,
+                744.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "801f5f10-4e50-4102-bf1c-9df5a2bf9792",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                557.0,
+                751.0
+            ],
+            "p2": [
+                557.0,
+                610.9964286169813
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "6805b7d9-ad5a-460a-9ad8-cc2d5ab1f178",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                609.0,
+                615.0
+            ],
+            "p2": [
+                609.0,
+                795.1138528820035
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "1b234df1-3104-4526-a1c1-9efd8a32208a",
+            "friction": 0.1,
+            "elasticity": 0.6999999284744263,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                614.0,
+                794.0
+            ],
+            "p2": [
+                52.0,
+                909.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "c431de75-8a8b-495e-ba5a-d90070133000",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                54.0,
+                908.0
+            ],
+            "p2": [
+                24.0,
+                859.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "1cf88bec-b83a-4664-a381-8e0e10daab9a",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                609.0,
+                625.0
+            ],
+            "p2": [
+                595.0,
+                357.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "1286c1aa-9566-41f5-902f-d197fb20bdbd",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                587.0,
+                357.0
+            ],
+            "p2": [
+                144.0,
+                416.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "c3c524c7-929d-4f5b-9815-3103d47286a2",
+            "friction": 0.1,
+            "elasticity": 0.6999999284744263,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                153.0,
+                480.0
+            ],
+            "p2": [
+                547.0,
+                409.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "d6d4a7c4-3baf-4584-9bdd-bc8ea37300b9",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                547.0,
+                409.0
+            ],
+            "p2": [
+                557.0,
+                616.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "ecf41080-ae48-43cd-8ca2-270ce4623951",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                159.0,
+                487.0
+            ],
+            "p2": [
+                51.0,
+                533.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "9eec28da-4f98-496e-b215-2322648d3de4",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                51.0,
+                533.0
+            ],
+            "p2": [
+                11.0,
+                535.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "6d5c14dc-2614-4663-b7ef-ecbe11502825",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                11.0,
+                535.0
+            ],
+            "p2": [
+                36.0,
+                500.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "e898e4dd-7688-4651-bca9-7c3e1477697e",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                36.0,
+                500.0
+            ],
+            "p2": [
+                5.0,
+                511.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "ecf52dc3-cf01-417d-a432-ff22fd22ac12",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                5.0,
+                511.0
+            ],
+            "p2": [
+                11.0,
+                289.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "4640f311-1fda-48a9-9043-219d86638c0d",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                11.0,
+                289.0
+            ],
+            "p2": [
+                248.0,
+                250.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "078d8e45-f4a5-464b-ad8f-69926202c708",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                248.0,
+                250.0
+            ],
+            "p2": [
+                305.0,
+                315.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "b5bb4e6b-d06e-49cd-b28b-976297bcbfcb",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                305.0,
+                315.0
+            ],
+            "p2": [
+                342.0,
+                234.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "b56ef7ae-b6e2-48c8-b65e-99e130c39b59",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                342.0,
+                234.0
+            ],
+            "p2": [
+                613.0,
+                185.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "138d9108-91a2-4b7f-bad7-bff7f9c3b1cd",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                616.0,
+                299.0
+            ],
+            "p2": [
+                385.0,
+                332.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "9c0d1890-eb32-47e4-8ae9-cf8138c3fa97",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                385.0,
+                332.0
+            ],
+            "p2": [
+                333.0,
+                389.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "797790d0-14ec-42bc-8ade-12ee63feba6e",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                333.0,
+                389.0
+            ],
+            "p2": [
+                245.0,
+                363.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "333f3706-8f91-443d-b471-194c606e2dc9",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                245.0,
+                363.0
+            ],
+            "p2": [
+                107.0,
+                359.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "daf36a2e-7abe-4dfa-a73c-9c4422c12b8b",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                107.0,
+                359.0
+            ],
+            "p2": [
+                62.0,
+                372.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "22244528-56a4-403f-b2c7-170c04e2c110",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                62.0,
+                372.0
+            ],
+            "p2": [
+                61.0,
+                420.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "60763612-390f-445f-ad43-eb9346585644",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                61.0,
+                420.0
+            ],
+            "p2": [
+                148.0,
+                416.0
+            ]
+        },
+        {
+            "type": "Ball",
+            "uid": "2de74393-5109-4619-9f97-a8e1aba50eb7",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                3476.002379136797,
+                -3306676.502940381
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "7f083dac-40b5-4755-b239-f85b7ac3f4ce",
+            "friction": 0.1,
+            "elasticity": 0.8999999761581421,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                2746.7222248678345,
+                -3166561.4392537237
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "c5f76aa2-2ac9-4978-a3ad-96b0df238dc5",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                0,
+                0
+            ],
+            "radius": 50
+        },
+        {
+            "type": "Ball",
+            "uid": "e0b8175f-b864-42a8-a9a7-8d1f3bb1b0e6",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                5971.154779380809,
+                -2863107.716175797
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "012460d2-ec2b-492c-8fef-52d1517f86f5",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                3981.811571284439,
+                -2802714.3201888585
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "03d176f9-9726-4485-b1a0-d560d39ad3da",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                3965.8473014204023,
+                -2700772.457075635
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "HollowCircle",
+            "uid": "2b158665-3d1f-4d8c-9e34-cd443bac31ee",
+            "friction": 0.1,
+            "elasticity": 1.2000000476837158,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                0,
+                0
+            ],
+            "radius": 50
+        },
+        {
+            "type": "Wall",
+            "uid": "09bb934b-df9d-46f7-8bd7-d45ad8df281b",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                558.0,
+                635.0
+            ],
+            "p2": [
+                568.0,
+                627.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "e162749d-5970-44d1-9e9c-6354d28da09c",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                568.0,
+                628.0
+            ],
+            "p2": [
+                557.0,
+                622.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "098c4f40-16b2-4fce-b1c0-bf5860378d66",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                592.0,
+                498.0
+            ],
+            "p2": [
+                602.0,
+                505.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "1b6626fe-2ec5-48e4-9a7d-bff4cbef17fc",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                592.0,
+                499.0
+            ],
+            "p2": [
+                603.0,
+                495.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "0ae2fd9b-2580-41c2-b474-ec82c8e944a0",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                615.0,
+                302.0
+            ],
+            "p2": [
+                701.0,
+                265.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "7ec23efb-9ab6-4838-8cd3-a188aa39fea7",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": false,
+            "p1": [
+                701.0,
+                265.0
+            ],
+            "p2": [
+                690.0,
+                64.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "e200d6a0-8356-4276-8ffa-4db8f3219433",
+            "friction": 0.6000000238418579,
+            "elasticity": 0.6999999284744263,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": false,
+            "p1": [
+                690.0,
+                64.0
+            ],
+            "p2": [
+                32.0,
+                63.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "ec29a27d-ee73-42a4-b876-f81c44990ec6",
+            "friction": 0.1,
+            "elasticity": 0.2999999225139618,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": false,
+            "p1": [
+                32.0,
+                63.0
+            ],
+            "p2": [
+                16.0,
+                214.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "9116b1a0-c0f2-438b-8980-3e59feee917f",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": false,
+            "p1": [
+                16.0,
+                214.0
+            ],
+            "p2": [
+                611.0,
+                185.0
+            ]
+        },
+        {
+            "type": "RotatingWall",
+            "uid": "2acfeb88-9384-4efb-8081-3221025cc28e",
+            "friction": 0.1,
+            "elasticity": 0.2999999225139618,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": false,
+            "pivot": [
+                620.0,
+                195.0
+            ],
+            "arm_length": 68.00735254367721,
+            "speed": -190.0,
+            "start_angle": -17.102728969052375
+        },
+        {
+            "type": "Ball",
+            "uid": "f4445780-9fd4-4299-94f9-e32bdc0ef7e0",
+            "friction": 0.1,
+            "elasticity": 1.100000023841858,
+            "notes": [
+                39,
+                46,
+                46,
+                44,
+                39,
+                39,
+                53,
+                52,
+                51,
+                51
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                -9148.971947520617,
+                -1616811.360088325
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "1927bdbe-78ab-4e2d-8af1-2884826c5fe3",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                39,
+                46
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                572.939645166802,
+                429.1689127758625
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "d268b477-0f9d-41d8-9658-406e6d8fe400",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                51,
+                58
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                45.492396231515656,
+                78.02049310027537
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Ball",
+            "uid": "4848ac0c-1e2e-43ec-a0db-e37c54e99598",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                34,
+                32
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "position": [
+                455.9691510888039,
+                78.64431621998179
+            ],
+            "radius": 10.0
+        },
+        {
+            "type": "Wall",
+            "uid": "acc4368c-0498-49a8-a2c2-05007f6232c0",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                32
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                241.0,
+                465.0
+            ],
+            "p2": [
+                239.0,
+                454.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "e96fcd91-95c8-41f8-99fc-cc176d07356e",
+            "friction": 0.1,
+            "elasticity": 0.7999999523162842,
+            "notes": [
+                32
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                238.0,
+                455.0
+            ],
+            "p2": [
+                453.0,
+                414.0
+            ]
+        },
+        {
+            "type": "Wall",
+            "uid": "60732808-c804-4e43-9a0e-7fbecdd58a05",
+            "friction": 0.1,
+            "elasticity": 1.0,
+            "notes": [
+                32
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "p1": [
+                453.0,
+                423.0
+            ],
+            "p2": [
+                453.0,
+                413.0
+            ]
+        },
+        {
+            "type": "OscillatingWall",
+            "uid": "4cfe5c60-b94b-4732-a46d-b23fabbd62b0",
+            "friction": 0.1,
+            "elasticity": 1.2000000476837158,
+            "notes": [
+                34,
+                32
+            ],
+            "channel": 0,
+            "trigger_midi": true,
+            "center": [
+                348.0,
+                452.0
+            ],
+            "arm_length": 104.92378186092989,
+            "sweep": 25.0,
+            "speed": 0.5,
+            "rest_angle": -10.0
+        }
+    ],
+    "midi": {
+        "dynamic_velocity": true,
+        "sensitivity": 0.5,
+        "fixed_velocity": 100,
+        "velocity_sensitivity": 0.7889999747276306
+    }
+}
